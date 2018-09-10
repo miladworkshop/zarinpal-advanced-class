@@ -19,7 +19,7 @@ class zarinpal
 	
 	private function soap_check()
 	{
-		return (extension_loaded('soapx')) ? true : false;
+		return (extension_loaded('soap')) ? true : false;
 	}
 	
 	private function error_message($code, $desc, $cb, $request=false)
